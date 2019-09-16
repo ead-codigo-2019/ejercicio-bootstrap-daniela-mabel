@@ -12,6 +12,41 @@
 </head>
 <body>
     <!-- Barra de Navegación: https://getbootstrap.com/docs/4.3/components/navbar/ -->
+    <nav class="navbar navbar-light" style="background-color: #fa8072;">
+  <a class="navbar-brand" href="#">Hexágono</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Instrucciones <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Acerca de</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ¿Necesitas ayuda?
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Contáctanos</a>
+          <a class="dropdown-item" href="#">Galería</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Juega con</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Versión online</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscame!</button>
+    </form>
+  </div>
+</nav>
     <!-- Carrusel con 3 fotos: https://getbootstrap.com/docs/4.3/components/carousel/ -->
     <!-- Grilla de 2 columnas: Título, párrafo y botón de enlace: https://getbootstrap.com/docs/4.3/layout/grid/ -->
     <!-- Grilla de 3 columnas: Videos de Youtube: https://getbootstrap.com/docs/4.3/layout/grid/ -->
